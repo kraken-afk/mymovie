@@ -1,4 +1,5 @@
 import moment from "moment/moment";
+import star from "../../public/icons/star-solid.svg";
 
 class SectionDetail extends HTMLElement {
   constructor() {
@@ -89,7 +90,8 @@ class SectionDetail extends HTMLElement {
     ratingWrapper.setAttribute("class", "fw-bold d-flex align-items-center mx-auto my-2 rate-bar")
 
     starSvg.setAttribute("class", "star")
-    starSvg.setAttribute("src", "./icons/star-solid.svg")
+    starSvg.setAttribute("src", star);
+    console.log(starSvg);
     starSvg.width = 18;
     starSvg.style.marginRight = "1rem"
 
