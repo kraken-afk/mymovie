@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-bottom: 3rem;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.navbar-brand {
+  margin-right: 4rem;
+}
+
+.card-text {
+  font-size: 13px;
+}
+
+.card-img-top {
+  transition: .2s;
+}
+
+.card-img-top:hover {
+  opacity: .6;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.figure-detail {
+  width: 200px;
+}
+
+.rate-bar {
+  width: max-content;
+}
+
+.table {
+  max-width: 500px !important;
+}
+
+#spinner {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
